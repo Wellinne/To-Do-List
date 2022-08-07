@@ -49,7 +49,7 @@ body {
   border-color: #8938c249;
 }
 
-.clear-btn{
+.clear-all{
   border-radius: 3px;
   padding: 5px;
   background-color: #8938c249;
@@ -61,7 +61,7 @@ body {
   cursor: pointer;
 }
 
-.clear-btn:active{
+.clear-all:active{
   background-color: #8938c262;
   cursor: pointer;
 }
@@ -171,6 +171,9 @@ body {
   color: #ff0000;
 }
 
+.completed {
+  text-decoration: line-through;
+}
 
 @media (max-width: 750px) {
   body{
@@ -204,11 +207,14 @@ body {
     width: 25px;
     font-size: 12px;
   }
-  .clear-btn{
+  .clear-all{
     height: 25px;
     font-size: 12px;
   }
   .task-item{
     font-size: 17px;
+  }
+  .checkbox{
+    width: 12px;
   }
 }
